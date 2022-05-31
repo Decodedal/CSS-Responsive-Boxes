@@ -58,25 +58,43 @@ background-color: crimson;
   body{
     background-color: blueviolet;
   }
+  .container{
+    position: relative;
+  }
 .a{
 height: 30vh;
+position: absolute;
 }
 .b{
   height: 30vh;
-  width:69vw;
+  width: 65vw;
+  position: absolute;
+  top: 33vh;
 }
 .c{
   height: 30vh;
+  position:absolute;
+  top: 65vh;
+  
 }
 .d{
   height: 30vh;
+  position: absolute;
+  top: 65vh;
+  left: 22vw;
 }
 .e{
   height: 30vh;
+  position: absolute;
+  top: 65vh;
+    right: 30.5vw;
 }
 .f{
-height: 60vh;
+height: 62vh;
 width:29vw;
+position: absolute;
+top: 33vh;
+right: -1vw;
 
 /* position: relative; */
 /* bottom: 500px; */
