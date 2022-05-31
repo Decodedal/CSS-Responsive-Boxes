@@ -1,3 +1,50 @@
 body {
   background: blanchedalmond;
 }
+.a{
+ width: auto;
+ height: 17vh;
+ background-color: aqua;
+ margin: 1rem;
+}
+.b{
+width: auto;
+height: 56vh;
+background-color: blueviolet;
+margin: 1rem;
+flex-grow: 5;
+} 
+.c{
+width: auto;
+height: 17vh;
+background-color: chartreuse;
+margin: 1rem;
+flex-grow: 3;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top:2rem ;
+
+}
+@media (min-width:600px){
+
+  .container{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a{
+    height: 28vh;
+    width:100%;
+  }
+.b{
+  height: 53vh;
+ max-width:59%;
+}
+.c {
+  height: 53vh;
+  max-width: 39%;
+}
+}
