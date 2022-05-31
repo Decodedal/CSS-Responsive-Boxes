@@ -1,3 +1,76 @@
 body {
   background: peachpuff;
 }
+.container{
+  background-color: rgb(255, 247, 0);
+  display: flex;
+  flex-wrap: wrap;
+  flex: auto;
+  justify-content: space-evenly;
+}
+.a{
+  width: 100%;
+  height: 20vh;
+  background-color: aqua;
+  flex: auto;
+}
+.b{
+  width: 25vw;
+  height: 15vh;
+  background-color: blueviolet;
+  flex: auto;
+}
+.c{
+  width: 25vw;
+  height: 15vh;
+  background-color: blueviolet;
+  flex: auto;
+}
+.d{
+  width: 25vw;
+  height: 15vh;
+  background-color: blueviolet;
+  flex: auto;
+}
+.e{
+  width: 25vw;
+  height: 15vh;
+  background-color: blueviolet;
+  flex: auto;
+}
+.f{
+  width: 25vw;
+  height: 15vh;
+  background-color: blueviolet;
+  flex: auto;
+}
+.g{
+  width: 25vw;
+  height: 15vh;
+  background-color: blueviolet;
+  flex: auto;
+}
+.h{
+  width: 100vw;
+  height: 40vh;
+  background-color: cadetblue;
+}
+*{
+  margin: .5rem;
+}
+.small-box{
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+  width: 70vw;
+}
+@media screen and (min-width:800px){
+  .container{
+    background-color: brown;
+  }
+.h{
+  width: 20vw;
+  height: 45vh;
+  
+}
+}
